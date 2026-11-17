@@ -1,0 +1,43 @@
+{
+  "target": "127.0.0.1",
+  "resolved_ip": "127.0.0.1",
+  "scan_time": "2026-11-16T23:15:31.142516",
+  "duration_seconds": 3.18,
+  "open_ports": [
+    {
+      "port": 2121,
+      "state": "OPEN",
+      "service": "iprop",
+      "banner": "220---------- Hospital Legacy Backup Service ----------",
+      "security_note": ""
+    },
+    {
+      "port": 2222,
+      "state": "OPEN",
+      "service": "unknown",
+      "banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.6",
+      "security_note": ""
+    },
+    {
+      "port": 8000,
+      "state": "OPEN",
+      "service": "unknown",
+      "banner": "Server: gunicorn",
+      "security_note": ""
+    },
+    {
+      "port": 8060,
+      "state": "OPEN",
+      "service": "unknown",
+      "banner": "No banner returned",
+      "security_note": ""
+    },
+    {
+      "port": 8080,
+      "state": "OPEN",
+      "service": "http-alt",
+      "banner": "Server: Werkzeug/3.1.9 Python/3.11.17",
+      "security_note": ""
+    }
+  ]
+}
